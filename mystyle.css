@@ -1,0 +1,106 @@
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    background-image: url("photos/desert.jpeg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+
+.heading {
+    padding: 40px 20px 20px 40px;
+}
+
+.white {
+    background-color: whitesmoke;
+    background-size: fill;
+}
+h1 {
+    text-align: center;
+    color: #662900;
+    font-family: 'El Messiri',  Arial, sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Cardo','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width: auto;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 40px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle{
+    opacity: 1;
+}
+
+.text {
+    background-color:#ffd966 ;
+    color: white;
+    font-size: 14px;
+    padding: 16px 32px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio *
+  min-width: 100%;
+  min-height: 100%;
+}*/
